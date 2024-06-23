@@ -24,6 +24,9 @@
 .c-white{
     color: var(--white);
 }
+.c-light-slate{
+    color: var(--light-slate);
+}
 .bc-white{
     background-color: var(--white);
 }
@@ -73,9 +76,9 @@ h3{
 .small-text{
     font-family: Roboto,sans-serif;
     font-size: 12px;
-    font-weight: normal;
-    text-space: 4%;
+    font-weight: 400;
     line-height: 14px;
+    letter-spacing: 0.04em;
 }
 
 .body-medium-text{
@@ -97,9 +100,9 @@ h3{
 .link-text{
     font-family: Roboto,sans-serif;
     font-size: 12px;
-    font-weight: normal;
-    text-space: 4%;
+    font-weight: 400;
     line-height: 16px;
+    letter-spacing: 0.04em;
     text-decoration: underline;
 }
 .logo-text{
@@ -452,3 +455,182 @@ address{
 .btn-round-footer:focus{
     background-color: var(--green);
 }
+
+.footer-input{
+    border-radius: 4px;
+    border: 1px solid var(--white);
+    height: 40px;
+    width: 264px;
+    color: var(--white);
+    padding-left: 16px;
+}
+.footer-input::placeholder{
+    color: var(--white);
+}
+
+.footer-social-block{
+    margin-right: 80px;
+}
+.btn-subscribe{
+    border: 0;
+    background-color: var(--iris);
+    color: var(--white);
+    cursor: pointer;
+    min-width: 165px;
+    display: flex;
+    height: 40px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    text-align: start;
+}
+.btn-subscribe:hover{
+    background-color: var(--ocean);
+}
+.btn-subscribe:focus{
+    background-color: var(--ocean);
+}
+.subscribe{
+    gap: 24px;
+}
+.icon-send{
+    margin-left: 16px;
+    fill: var(--white);
+}
+
+.is-open{
+    display: flex;
+}
+.backdrop{
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(46, 47, 66, 0.4);
+    justify-content: center;
+}
+.modal-window{
+    margin-top: 80px;
+    width: 408px;
+    height: 584px;
+    padding: 24px;
+    background-color: var(--dairy);
+    border-radius: 4px;
+    z-index: 2;
+}
+.btn-close{
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: var(--corn-flower);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-bottom: 24px;
+}
+.btn-close:hover{
+    background-color: var(--iris);
+    border-color: var(--iris);
+}
+.btn-close:hover svg{
+    fill: var(--white);
+}
+.modal-form{
+    margin-top: 16px;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.field-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.icon-input{
+    position: relative;
+}
+.input{
+    width: 100%;
+    height:40px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    outline-style: none;
+    padding-left: 38px;
+}
+
+.icon-input:focus-within .input{
+    border-radius: 4px;
+    border: 1px solid var(--ocean);
+}
+.icon-input:focus-within .icon{
+    fill: var(--iris);
+}
+
+
+.icon{
+    fill: var(--navy-blue);
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+
+.icon-close{
+    fill: var(--navy-blue);
+}
+.text-field{
+    height: 120px;
+    width: 100%;
+    resize: unset;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+
+    padding: 8px 16px;
+}
+.checkbox{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.terms{
+    align-items: center;
+    margin-top: 8px;
+
+}
+.policy{
+    margin-left: 0.3em;
+}
+.checkbox:checked{
+    outline: none;
+    accent-color: var(--ocean);
+}
+.checkbox-transition{
+    transition: accent-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.border-transition{
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-transition{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-modal{
+    border: 0;
+    background-color: var(--iris);
+    color: var(--white);
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    margin: 24px auto 0;
+}
+.btn-modal:hover{
+    background-color: var(--ocean);
+}
+.btn-modal:focus{
+    background-color: var(--ocean);
+}
+
+
