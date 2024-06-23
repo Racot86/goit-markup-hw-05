@@ -490,7 +490,8 @@ address{
     height: 40px;
     border-radius: 4px;
     padding: 8px 24px;
-    text-align: start;
+    justify-content: center;
+    align-items: center;
 }
 .btn-subscribe:hover{
     background-color: var(--ocean);
