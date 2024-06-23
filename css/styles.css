@@ -463,6 +463,11 @@ address{
     width: 264px;
     color: var(--white);
     padding-left: 16px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
 .footer-input::placeholder{
     color: var(--white);
@@ -491,6 +496,9 @@ address{
 }
 .btn-subscribe:focus{
     background-color: var(--ocean);
+}
+.subscribe{
+    gap: 24px;
 }
 
 .icon-send{
