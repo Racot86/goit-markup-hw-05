@@ -648,10 +648,10 @@ address{
     margin-right: 8px;
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
-.checkbox:checked{
+.checkbox[type="checkbox"]:checked{
     background-color:var(--ocean);
 }
-.checkbox:checked .custom-control-label{
+.checkbox[type="checkbox"]:checked .custom-checkbox{
     border: none;
     fill: var(--cloud);
 }
