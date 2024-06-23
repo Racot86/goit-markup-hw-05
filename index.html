@@ -10,63 +10,6 @@
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 <body class="body-text c-body">
-    <div class="backdrop is-open">
-        <div class="modal-window">
-            <button class="btn-close flex btn-transition">
-                <svg class="icon-close" viewBox="432 0 32 32" width="8" height="8" aria-hidden="true">
-                    <use x="0" y="0" href="./images/icons.svg#icon-close"></use>
-                </svg>
-            </button>
-
-            <p class="body-medium-text text-center">Leave your contacts and we will call you back</p>
-
-            <form class="modal-form flex">
-                <div>
-                    <label class="field-block small-text c-light-slate" for="name">Name</label>
-                    <div class="icon-input">
-                        <input class="input border-transition" type="text" id="name" name="name" autofocus/>
-                        <svg class="icon icon-transition" viewBox="480 0 32 32" width="18" height="24" >
-                            <use x="0" y="0" href="./images/icons.svg#icon-user"></use>
-                        </svg>
-                    </div>
-                </div>
-
-                <div>
-                    <label class="field-block small-text c-light-slate" for="phone">Phone</label>
-                    <div class="icon-input">
-                        <input class="input border-transition" type="tel" id="phone" name="phone" autofocus/>
-                        <svg class="icon icon-transition" viewBox="528 0 24 32" width="18" height="24" >
-                            <use x="0" y="0" href="./images/icons.svg#icon-phone"></use>
-                        </svg>
-                    </div>
-                </div>
-
-                <div>
-                    <label class="field-block small-text c-light-slate" for="email">Email</label>
-                    <div class="icon-input">
-                        <input class="input border-transition" type="email" id="email" name="phone" autofocus/>
-                        <svg class="icon icon-transition" viewBox="576 0 43 32" width="18" height="24" >
-                            <use x="0" y="0" href="./images/icons.svg#icon-envelope"></use>
-                        </svg>
-                    </div>
-                </div>
-
-                <div class="icon-input small-text">
-                    <label class="field-block small-text c-light-slate" for="comment">Comment</label>
-                    <textarea placeholder="Text input" class="input text-field border-transition" id="comment" name="comment"></textarea>
-                </div>
-
-                <label class="small-text c-light-slate flex terms">
-                    <input class="checkbox checkbox-transition" type="checkbox" name="policy" />
-                    I accept the terms and conditions of the
-                    <a href="" class="link-text col-iris policy">Privacy Policy</a>
-                </label>
-
-                <button class="btn-modal" type="submit">Submit</button>
-
-            </form>
-        </div>
-    </div>
     <header class="header">
         <div class="container flex">
             <nav class="header-nav">
@@ -448,6 +391,63 @@
             </div>
         </div>
     </footer>
+    <div class="backdrop is-open">
+        <div class="modal-window">
+            <button class="btn-close flex btn-transition">
+                <svg class="icon-close" viewBox="432 0 32 32" width="8" height="8" aria-hidden="true">
+                    <use x="0" y="0" href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+
+            <p class="body-medium-text text-center">Leave your contacts and we will call you back</p>
+
+            <form class="modal-form flex">
+                <div>
+                    <label class="field-block small-text c-light-slate" for="name">Name</label>
+                    <div class="icon-input">
+                        <input class="input border-transition" type="text" id="name" name="name" autofocus/>
+                        <svg class="icon icon-transition" viewBox="480 0 32 32" width="18" height="24" >
+                            <use x="0" y="0" href="./images/icons.svg#icon-user"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="field-block small-text c-light-slate" for="phone">Phone</label>
+                    <div class="icon-input">
+                        <input class="input border-transition" type="tel" id="phone" name="phone" />
+                        <svg class="icon icon-transition" viewBox="528 0 24 32" width="18" height="24" >
+                            <use x="0" y="0" href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="field-block small-text c-light-slate" for="email">Email</label>
+                    <div class="icon-input">
+                        <input class="input border-transition" type="email" id="email" name="phone" />
+                        <svg class="icon icon-transition" viewBox="576 0 43 32" width="18" height="24" >
+                            <use x="0" y="0" href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="icon-input small-text">
+                    <label class="field-block small-text c-light-slate" for="comment">Comment</label>
+                    <textarea placeholder="Text input" class="input text-field border-transition" id="comment" name="comment"></textarea>
+                </div>
+
+                <label class="small-text c-light-slate flex terms">
+                    <input class="checkbox checkbox-transition" type="checkbox" name="policy" />
+                    I accept the terms and conditions of the
+                    <a href="" class="link-text col-iris policy">Privacy Policy</a>
+                </label>
+
+                <button class="btn-modal" type="submit">Submit</button>
+
+            </form>
+        </div>
+    </div>
 </body>
 </html>
 
