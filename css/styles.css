@@ -616,14 +616,17 @@ address{
 .form-container{
     margin-bottom: 8px;
 }
+.text-area-container{
+    margin-bottom: 16px;
+}
 .text-field{
     height: 120px;
     width: 100%;
     resize: unset;
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-
     padding: 8px 16px;
+    color: rgba(46, 47, 66, 0.4);
 }
 .checkbox{
     height: 16px;
