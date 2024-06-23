@@ -628,6 +628,9 @@ address{
     padding: 8px 16px;
     color: rgba(46, 47, 66, 0.4);
 }
+.checkbox-container{
+    margin-bottom: 24px;
+}
 .checkbox{
     height: 16px;
     width: 16px;

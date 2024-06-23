@@ -438,9 +438,9 @@
                     <label class="field-block small-text c-light-slate" for="user-comment">Comment</label>
                     <textarea placeholder="Text input" class="input text-field border-transition small-text" id="user-comment" name="user-comment"></textarea>
                 </div>
-                <div>
-                    <label class="small-text c-light-slate flex terms">
-                        <input class="checkbox checkbox-transition" type="checkbox" name="policy" />
+                <div class="checkbox-container">
+                    <input class="checkbox checkbox-transition visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy" />
+                    <label class="small-text c-light-slate flex terms" for="user-privacy" >
                         I accept the terms and conditions of the
                         <a href="" class="link-text col-iris policy">Privacy Policy</a>
                     </label>
