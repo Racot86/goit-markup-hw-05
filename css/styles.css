@@ -468,8 +468,11 @@ address{
     color: var(--white);
 }
 
-.footer-social-block{
-    margin-right: 80px;
+.subscribe-block{
+    margin-left: 80px;
+}
+.label-subscribe{
+    gap: 24px;
 }
 .btn-subscribe{
     border: 0;
@@ -489,9 +492,7 @@ address{
 .btn-subscribe:focus{
     background-color: var(--ocean);
 }
-.subscribe{
-    gap: 24px;
-}
+
 .icon-send{
     margin-left: 16px;
     fill: var(--white);
